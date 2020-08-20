@@ -7,8 +7,11 @@ export const environment = {
   apiServerUrl: 'http://127.0.0.1:5000', // the running FLASK api server url
   auth0: {
     url: 'dev-ecldezus.us', // the auth0 domain prefix
-    audience: 'coffe-shop', // the audience set for the auth0 app
+    audience: 'image', // the audience set for the auth0 app
     clientId: 'fI7N3hdoKj6jocT9um6IGFjeOHcAN4UB', // the client id generated for the auth0 app
     callbackURL: 'http://localhost:8100', // the base url of the running ionic application. 
   }
 };
+
+// token 1 => eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImcyeWtSNVNmenEwTERXZzdXVGNzWCJ9.eyJpc3MiOiJodHRwczovL2Rldi1lY2xkZXp1cy51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTM5NTI0Nzk5NTEwNTY3ODE3NjUiLCJhdWQiOlsiaW1hZ2UiLCJodHRwczovL2Rldi1lY2xkZXp1cy51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTk3OTQzNzYzLCJleHAiOjE1OTc5NTA5NjMsImF6cCI6ImZJN04zaGRvS2o2am9jVDl1bTZJR0ZqZU9IY0FONFVCIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCJ9.kpGZPikMgiAD9V9VyIN1TGHdVI6UOirMWBZSFZiNJ-Z5mSCrn19UZxAtZQ6OlSqx6XxTHoyKYVg2bDZhnqy3j8LHzUTI21rZZ-EiLTiikVr8mMQr49FuheniCrOm9dtrJn_lU_sNioxSxVykutfuoMyVn-bsfaKAdABOPw-hnzOHebSd7QV0T2CYEj62VFfOqP9mat9ckggJ4imJA9kvJoU9qN6gYOi221LGfLmoeep6V1DX65f2KWfZbFZ3bw-Ib36APVlrSv0nRegrTFFCxdQNCtigqXfXPE5Ft1i3dWw_axAuxkgqseWyJMHlXHLBUp054VgPAX6Gdm8ccAWbnw
+// token 2 => eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImcyeWtSNVNmenEwTERXZzdXVGNzWCJ9.eyJpc3MiOiJodHRwczovL2Rldi1lY2xkZXp1cy51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDMyMTE5MDEyNTc2NjA0Mzc2MDIiLCJhdWQiOlsiaW1hZ2UiLCJodHRwczovL2Rldi1lY2xkZXp1cy51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTk3OTQ0MjcwLCJleHAiOjE1OTc5NTE0NzAsImF6cCI6ImZJN04zaGRvS2o2am9jVDl1bTZJR0ZqZU9IY0FONFVCIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCJ9.L560ME4lUeQiH-Op2BqEJMj_KU1b_H_fAHYuQUJmMkKifOQhy-UL4Q6RIwP5Oc0WQYNp_PsWzPT7X47iM2H9WFEGPRgKvD0Q3CM90dedIPS6DOgzXaEhhmU0J3OQc18HU9vyG_7uyo8uNZ54FBywnHr2UIMcjSbK5CFkvPjVgC5epK7oKlOD5A39ea8Y4XIjXKucSvJdoAC3vZIuZ72PrgE2Jfp6-vqfDbDEWn0J1GO4ep5FbtcgtPWzBYS2bOU_zpMcEjmYILLIx3crDPvbTjFHIeWyde9VdqePVfm-73IUShvzN-5LcvN2wfvoyqAeXAhuIH8-wWBBBjhyGJARhA
